@@ -44,7 +44,7 @@ def get_largest_prime_below(n):
                     ok = False
                     break
             if ok == True:
-                print (n)
+                return n
                 break
 
 
@@ -94,7 +94,7 @@ def main():
         if (x == 2):
             # Largest prime below
             n = int(input("Introduceti n="))
-            print(get_largest_prime_below())
+            print(get_largest_prime_below(n))
         if (x == 3):
             # Leap years
             start = int(input("Scrie primul an: "))
